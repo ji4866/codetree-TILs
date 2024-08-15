@@ -15,7 +15,6 @@ sum = 0
 #### for문
 for i in range(len(x)):
   num_list.append(func1(x[i]))
-num_list
 
 # 두 수 비교
 for i in num_list:
