@@ -5,4 +5,5 @@ if a%2 != 0:
 
 
 if a%3 == 0:
-    print(int(a/3))
+    a = int(a/3)
+    print(a)
