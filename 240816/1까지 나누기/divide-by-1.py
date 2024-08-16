@@ -1,10 +1,15 @@
 n = int(input())
 count = 0
 i = 1
+num = n
 
-while (n/i >= 1):
-  n = int(n/i)
+for i in range(1, n+1):
+  num = int(num/i)
   count += 1
-  i += 1
+  print(num)
+  
+  if int(num/i) <=1:
+    count += 1
+    break;
 
-print(count+1)
+print(count)
