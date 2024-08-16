@@ -1,17 +1,17 @@
 n = int(input())
 count = 0
 i = 1
-num = n
 
-for i in range(1, n+1):
-  if int(num/i) <=1:
+while (True):
+    
+  if int(n/i) <=1:
     count += 1
     break;
 
-  num = int(num/i)
+  n = int(n/i)
+  #print(n)
   count += 1
-  print(num)
-  
+  i += 1
 
 
 print(count)
