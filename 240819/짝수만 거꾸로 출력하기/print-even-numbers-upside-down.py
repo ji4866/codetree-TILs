@@ -1,12 +1,9 @@
 n = int(input())
-num_list = []
+
 y = []
 
-a, b, c, d = map(int, input().split(' '))
-num_list.append(a)
-num_list.append(b)
-num_list.append(c)
-num_list.append(d)
+num_list = list(map(int, input().split()))
+
 
 
 # y : num_list 중 짝수 list
