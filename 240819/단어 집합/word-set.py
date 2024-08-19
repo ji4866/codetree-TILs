@@ -11,8 +11,7 @@ while (s != ['end']):
       ab.append(item)
   
   for item in ab:
-    if item in new:
-      print(item, end= ' ')
+    print(item, end= ' ')
     
   print('')
   s = list(input().split())
