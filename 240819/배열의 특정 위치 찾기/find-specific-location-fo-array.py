@@ -12,4 +12,4 @@ for i in range(len(arr)):
 #print(avg)
 avg /= count
 
-print(total, avg)
+print(total, '%0.1f'%avg)
