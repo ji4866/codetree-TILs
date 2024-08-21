@@ -9,7 +9,7 @@ for i in range(2):
     x = list(map(int, input().split(' ')))
     num_list.append(x)
   arr.append(num_list) 
-arr # 첫 번째 격자 : arr[0], 두 번째 격자 : arr[1]
+#arr # 첫 번째 격자 : arr[0], 두 번째 격자 : arr[1]
 
 
 answer = []
